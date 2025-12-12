@@ -1,0 +1,9 @@
+推荐环境配置：
+Python	3.13.2	
+PyTorch	2.7.0+cpu	
+Transformers	4.46.3	
+Safetensors	已安装
+# 安装核心依赖（无版本冲突，因为Python和库都是最新的）
+pip install flask pandas numpy scikit-learn FuzzyTM gensim mlxtend
+pip install alembic anyio asgiref bcrypt beautifulsoup4 cffi cryptography distro django exceptiongroup flask-bcrypt flask-migrate flask-sqlalchemy greenlet h11 httpcore httpx importlib-metadata importlib-resources jieba jiter mako openai patsy pycparser pydantic pydantic-core python-dotenv sniffio soupsieve sqlalchemy sqlparse statsmodels tomli typing-inspection xgboost xlsxwriter zipp -i https://pypi.tuna.tsinghua.edu.cn/simple
+pip install pyqt5 pyqt5-plugins pyqt5-qt5 pyqt5-sip pyqt5-tools qt5-applications qt5-tools -i https://pypi.tuna.tsinghua.edu.cn/simple
