@@ -1,0 +1,4 @@
+*.safetensors filter=lfs diff=lfs merge=lfs -text
+models/medical_biencoder/biencoder_fixed/model.safetensors filter=lfs diff=lfs merge=lfs -text
+models/medical_biencoder/cross_encoder_fast/model.safetensors filter=lfs diff=lfs merge=lfs -text
+models/medical_biencoder/biencoder/model.safetensors filter=lfs diff=lfs merge=lfs -text
